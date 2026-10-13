@@ -2,9 +2,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 concurrency:
   group: "latest"
@@ -36,4 +36,4 @@ jobs:
           automatic_release_tag: "latest"
           prerelease: false
           title: "Release (1.21.4)"
-          files: ./build/libs/javelinpepe-0.1-recode.jar
+          files: ./build/libs/wyvernpepe-0.1-recode.jar
